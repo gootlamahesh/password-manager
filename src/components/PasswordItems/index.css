@@ -1,0 +1,51 @@
+li {
+  list-style-type: none;
+  border: 1px solid #f8fafc;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 28vw;
+  justify-content: space-between;
+  margin: 5px;
+}
+@media screen and (max-width: 767px) {
+  li {
+    width: 80vw;
+    align-self: center;
+  }
+}
+.letter {
+  background-color: #10b981;
+  color: #f8fafc;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  padding: 10px 15px;
+}
+.middle-part {
+  align-self: flex-start;
+  line-height: 0.5;
+}
+.web-heading {
+  font-size: 1rem;
+  text-align: left;
+}
+.user-para {
+  font-size: 1.5rem;
+  text-align: left;
+}
+.stars {
+  width: 50%;
+}
+.delete-btn {
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.delete-icon {
+  width: 30px;
+  height: 30px;
+}
